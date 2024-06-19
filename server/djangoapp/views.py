@@ -1,5 +1,5 @@
 # Uncomment the required imports before adding the code
-
+from .restapis import get_request, analyze_review_sentiments, post_review
 from django.shortcuts import render
 from django.http import HttpResponseRedirect, HttpResponse
 from django.contrib.auth.models import User
